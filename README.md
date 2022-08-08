@@ -38,8 +38,14 @@ to install dependences
 to run application at _http://localhost:3000/_
  
 ### Database
-Repository contains database with populated data, to use empty database run following commands in _API_ directory:
+The repository contains a database populated with sample data, to use empty database run following commands in _API_ directory:
 ```console
 > dotnet ef database drop -f
 > dotnet ef database update
 ```
+
+## Screenshots
+
+![dashboard view](https://github.com/Damian0401/CookBook.App/blob/master/Images/dashboard.png)
+![details view](https://github.com/Damian0401/CookBook.App/blob/master/Images/details.png)
+![create/edit view](https://github.com/Damian0401/CookBook.App/blob/master/Images/create.png)
