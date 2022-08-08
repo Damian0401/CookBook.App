@@ -1,0 +1,24 @@
+
+html, body {
+  height: 100%;
+}
+  
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+  
+.chakra-ui-light {
+  background: linear-gradient(90deg, rgba(96,126,51,1) 0%, rgba(163,185,31,1) 36%, rgba(235,252,69,0) 100%);
+}
